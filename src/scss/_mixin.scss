@@ -1,0 +1,41 @@
+
+$bg-color: #fff;
+$m-white: #fff;
+$m-blue: rgb(100, 173, 224);
+$m-green: #55b695;
+$m-whitespace: #eff4f4;
+
+
+
+$xs-size: 12px;
+$sm-size: 14px;
+$md-size: 16px;
+$lg-size: 18px;
+
+@function mblack($opacity: 1) {
+  @return rgba(7, 17, 27, $opacity);
+}
+@function mblue($opacity: 1) {
+  @return rgba(100, 173, 224, $opacity);
+}
+
+@mixin bg-img($url,$size) {
+    background-image: url("/image#{$url}.png");
+    background-size: $size;
+    background-repeat: no-repeat;
+}
+
+
+    @mixin border-bottom($color) {
+      position: relative;
+      &:after {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        display: block;
+        content: '';
+        width: 100%;
+        height: 0;
+        border-top: 1px solid $color;
+      }
+    }  

@@ -1,0 +1,135 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?a6whtc');
+  src:  url('../fonts/icomoon.eot?a6whtc#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?a6whtc') format('truetype'),
+    url('../fonts/icomoon.woff?a6whtc') format('woff'),
+    url('../fonts/icomoon.svg?a6whtc#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Ticket-star:before {
+  content: "\e915";
+}
+.icon-ticket-reward:before {
+  content: "\e916";
+}
+.icon-ticket:before {
+  content: "\e917";
+}
+.icon-money_bag:before {
+  content: "\e909";
+}
+.icon-Store:before {
+  content: "\e911";
+}
+.icon-arrow_lift:before {
+  content: "\e901";
+}
+.icon-arrow_right:before {
+  content: "\e905";
+}
+.icon-checkin:before {
+  content: "\e912";
+}
+.icon-user:before {
+  content: "\e900";
+}
+.icon-talk:before {
+  content: "\e907";
+}
+.icon-favorite:before {
+  content: "\e90b";
+}
+.icon-history:before {
+  content: "\e902";
+}
+.icon-book:before {
+  content: "\e91f";
+}
+.icon-books:before {
+  content: "\e920";
+}
+.icon-bubble2:before {
+  content: "\e96e";
+}
+.icon-cog:before {
+  content: "\e994";
+}
+.icon-bookmark:before {
+  content: "\e9d2";
+}
+.icon-bookmarks:before {
+  content: "\e9d3";
+}
+.icon-star-empty:before {
+  content: "\e9d7";
+}
+.icon-star-half:before {
+  content: "\e9d8";
+}
+.icon-star-full:before {
+  content: "\e9d9";
+}
+.icon-medium:before {
+  content: "\ea27";
+}
+.icon-circle-right:before {
+  content: "\ea42";
+}
+.icon-arrow_up:before {
+  content: "\ea50";
+}
+.icon-rotate:before {
+  content: "\e913";
+}
+.icon-comment:before {
+  content: "\e90c";
+}
+.icon-moon:before {
+  content: "\e90d";
+}
+.icon-search:before {
+  content: "\e90a";
+}
+.icon-share:before {
+  content: "\e914";
+}
+.icon-more-vertical:before {
+  content: "\e90f";
+}
+.icon-more-horizontal:before {
+  content: "\e910";
+}
+.icon-plus:before {
+  content: "\e90e";
+}
+.icon-edit:before {
+  content: "\e903";
+}
+.icon-edit-3:before {
+  content: "\e904";
+}
+.icon-book-open:before {
+  content: "\e906";
+}
+.icon-download:before {
+  content: "\e908";
+}
